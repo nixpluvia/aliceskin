@@ -1,0 +1,294 @@
+/* 탑 배너 바 시작 */
+.top-banner-bar {
+    height:0;
+    overflow-y:hidden;
+    transition: height 0.3s;
+  }
+  
+  html.top-bar-visible .top-banner-bar {
+    height:120px;
+  }
+  
+  .top-banner-bar .btn-toggle-top-banner-bar {
+    cursor:pointer;
+  }
+  
+  .top-banner-bar .slider-box-4 {
+    width:1280px;
+    margin:0 auto;
+  }
+  
+  .top-banner-bar .slider-box-4 > .slider > .slick-dots {
+    position:absolute;
+    top:0;
+    bottom:auto;
+    left:0;
+    width:auto;
+  }
+  
+  /* 탑 배너 바 끝 */
+  
+  /* 탑바 시작 */
+  .top-bar {
+    background-color:#231f20;
+  }
+  
+  .top-bar > .row > .cell {
+    width:calc((100% - 267px) / 2);
+  }
+  
+  .top-bar > .row > .cell:nth-child(2) {
+    width:267px;
+  }
+  
+  .top-bar .btn-toggle-top-banner-bar > img:last-child {
+    display:none;
+  }
+  
+  html.top-bar-visible .top-bar .btn-toggle-top-banner-bar > img:last-child {
+    display:block;
+  }
+  
+  html.top-bar-visible .top-bar .btn-toggle-top-banner-bar > img:first-child {
+    display:none;
+  }
+  
+  /* 탑바 끝 */
+  
+  /* 탑 메뉴바 시작 */
+  .top-menu-bar {
+    border-bottom:1px solid #cac9c9;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul {
+    position:relative;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > a {
+    font-size:17px;
+    letter-spacing:-1px;
+    padding:26px 0;
+    border-right:1px solid #cac9c9;
+    text-align:center;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li:first-child > a {
+    border-left:1px solid #cac9c9;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li:hover > a {  color:#DD467E;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu {
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row {
+    position:absolute;
+    display:none;
+    z-index:10;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li:hover > .sub-menu > .row {
+    display:block;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row > .cell {
+    background-color:green;
+    vertical-align:top;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row > .cell:first-child {
+    width:182px;
+    background-color:#FDFEF2;
+    border-bottom:3px solid #FF57A5;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row > .cell:first-child > ul > li > a {
+    color:#484848;
+    padding:10px 0;
+    padding-left:15px;
+    position:relative;
+    font-size:0.95rem;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row > .cell:first-child > ul > li {
+    border-bottom:1px solid #dfdfdf;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row > .cell:first-child > ul > li:hover > a {
+    color:#DD4672;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row > .cell:first-child > ul > li > a::before {
+    content:"";
+    position:absolute;
+    border:2px solid #afafaf;
+    left:5px;
+    top:calc(50% - 2px);
+    transform:rotate(45deg);
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+  }
+  
+  .top-menu-bar .menu-box-1 > ul > li > .sub-menu > .row > .cell:last-child > .img-box > .txt-box {
+    color:white;
+    position:absolute;
+    top:0;
+    padding-top:10px;
+    padding-left:10px;
+  }
+  /* 탑 메뉴바 끝 */
+
+  /* 푸터바 시작 */
+
+.footer-bar {
+  color:white;
+  position:relative;
+  z-index:0;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.footer-bar > .menu-box-1 {
+  position:relative;
+}
+
+.footer-bar > .menu-box-1 > ul, .footer-bar {
+  background-color:#101010;
+}
+
+.footer-bar > .menu-box-1 > ul > li > a {
+  padding:10px 30px;
+}
+
+.footer-bar > .menu-box-1 > ul > li > a > span {
+  margin-top:-3px;
+}
+
+.footer-bar > .menu-box-1 > ul > li.cell-kakao > a > span {
+  color:#F6D93D;
+}
+
+.footer-bar > .menu-box-1::before {
+  content:"";
+  display:block;
+  height:1px;
+  background-color:#383838;
+  position:absolute;
+  left:0;
+  width:100%;
+  top:50%;
+  z-index:-1;
+}
+
+.footer-bar > .sns-box-1 {
+  margin-top:30px;
+}
+
+.footer-bar > .sns-box-1 > ul > li > a {
+  padding:0 10px;
+}
+
+.footer-bar > .site-info-box {
+  margin-top:30px;
+}
+
+.footer-bar > .site-info-box > h1 {
+  font-size:1.2rem;
+}
+
+.footer-bar > .site-info-box > .content {
+  margin-top:20px;
+}
+
+.footer-bar > .site-info-box > .content > .box > ul > li {
+  position:relative;
+  font-size:0.85rem;
+  color:#666;
+}
+
+.footer-bar > .site-info-box > .content > .box > ul > li.cell-address > ul > li:not(:last-child) {
+  margin-right:10px;
+}
+
+.footer-bar > .site-info-box > .content > .box > ul > li.cell-address > ul > li > span {
+  color:white;
+  margin-right:10px;
+}
+
+.footer-bar > .site-info-box > .content > .box > ul > li.cell-address > ul > li > ul > li:not(:last-child) {
+  margin-right:10px;
+}
+
+.footer-bar > .site-info-box > .content > .box > ul > li:not(:last-child) {
+  margin-right:20px;
+}
+
+.footer-bar > .site-info-box > .content > .box > ul > li:not(:last-child)::before {
+  content:"";
+  position:absolute;
+  right:-12px;
+  top:8px;
+  width:1px;
+  height:10px;
+  background-color:white;
+}
+/* 푸터바 끝 */
+
+/* 퀵 바 시작 */
+.quick-bar {
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.quick-bar > ul {
+  display:none;
+}
+
+.quick-bar > ul > li > a {
+  background-image:url(http://aliceskin.com/images/common/quick.png);
+  width: 121px;
+  height: 71px;
+}
+
+.quick-bar > ul > li:nth-child(1) > a {
+  background-position: -20px -117px;
+}
+
+.quick-bar > ul > li:hover:nth-child(1) > a {
+  background-position: -162px -117px;
+}
+
+.quick-bar > ul > li:nth-child(2) > a {
+  background-position: -20px -189px;
+}
+
+.quick-bar > ul > li:hover:nth-child(2) > a {
+  background-position: -162px -189px;
+}
+
+.quick-bar > ul > li:nth-child(3) > a {
+  background-position: -20px -405px;
+}
+
+.quick-bar > ul > li:hover:nth-child(3) > a {
+  background-position: -162px -405px;
+}
+
+.quick-bar > ul > li:nth-child(4) > a {
+  background-position: -20px -261px;
+}
+
+.quick-bar > ul > li:hover:nth-child(4) > a {
+  background-position: -162px -261px;
+}
+
+.quick-bar > ul > li:nth-child(5) > a {
+  background-position: -20px -333px;
+}
+
+.quick-bar > ul > li:hover:nth-child(5) > a {
+  background-position: -162px -333px;
+}
+/* 퀵 바 끝 */
