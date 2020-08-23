@@ -9,6 +9,25 @@ require_once __DIR__ . "/../common.php";
 <title>대전 앨리스의원 ::: 성형외과/피부과/비만관리</title>
 </head>
 <body>
+
+<!-- 탑 버튼 -->
+<a class="top-btn img-box" href="#">
+  <img src="http://aliceskin.com/images/common/top.jpg" alt="">
+</a>
+
+<!-- 퀵 메뉴 바 -->
+<div class="quick-bar">
+  <a href="#" onclick="return false;" class="cell-right img-box"><img src="http://aliceskin.com/images/common/viewquick.png" alt=""></a>
+  <ul class="clear-both">
+    <li><a href="#" onclick="return false;" class="block"></a></li>
+    <li><a href="#" onclick="return false;" class="block"></a></li>
+    <li><a href="#" onclick="return false;" class="block"></a></li>
+    <li><a href="#" onclick="return false;" class="block"></a></li>
+    <li><a href="#" onclick="return false;" class="block"></a></li>
+  </ul>
+</div>
+
+<!-- 상단 슬라이드 배너 바 -->
 <div class="top-banner-bar con-min-width relative">
   <img class="btn-toggle-top-banner-bar absolute-right absolute-top" src="http://aliceskin.com/images/common/close.png" alt="">
 
@@ -24,6 +43,7 @@ require_once __DIR__ . "/../common.php";
   </div>
 </div>
 
+<!-- 상단 바 -->
 <div class="top-bar con-min-width">
   <div class="con row">
     <div class="cell row">
@@ -60,6 +80,7 @@ require_once __DIR__ . "/../common.php";
   </div>
 </div>
 
+<!-- 상단 메뉴 바 -->
 <div class="top-menu-bar con-min-width">
   <div class="con">
     <nav class="menu-box-1">
@@ -390,16 +411,4 @@ require_once __DIR__ . "/../common.php";
     </nav>
   </div>
 
-</div>
-
-<!-- 퀵 메뉴 시작 -->
-<div class="quick-bar">
-  <a href="#" onclick="return false;" class="cell-right img-box"><img src="http://aliceskin.com/images/common/viewquick.png" alt=""></a>
-  <ul class="clear-both">
-    <li><a href="#" onclick="return false;" class="block"></a></li>
-    <li><a href="#" onclick="return false;" class="block"></a></li>
-    <li><a href="#" onclick="return false;" class="block"></a></li>
-    <li><a href="#" onclick="return false;" class="block"></a></li>
-    <li><a href="#" onclick="return false;" class="block"></a></li>
-  </ul>
 </div>
